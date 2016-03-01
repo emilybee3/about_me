@@ -1,0 +1,33 @@
+#skills {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  /*background-color: #fff;*/
+  width: 900px;
+  height: 900px;
+  transform:scale(1.2);
+  margin-left:200px;
+  padding-top:75px;
+}
+
+
+#skillmap .skills-wrapper {
+  margin-top: 10px;
+  overflow: auto;
+}
+#skillmap .skills-sunburst {
+  float: left;
+  width: 500px;
+  /*margin-left: 80px;*/
+}
+#skillmap .skills-sunburst svg {
+  font: 8px 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+  -webkit-transform: 120%;  
+}
+
+#skills-chart-breadcrumb{
+  padding-left: 100px;
+  margin-bottom:-75px;
+}

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Emily Bee</title>
+
+<!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css">
+
+<!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+<!-- Plugin CSS -->
+    <link rel="stylesheet" href="static/css/animate.min.css" type="text/css">
+
+
+<!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/resume.css" type="text/css">
+
+    <link rel="stylesheet" href="static/css/creative.css" type="text/css">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/skill.css"/>
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#timeline">Where I've Been</a>
+                    </li>
+                    <!-- <li>
+                        <a class="page-scroll" href="#projects">Services</a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <div class="row">
+                    <div class="col-xs-9" id="aboutme">
+                        <h1>Hi! I'm Emily Bee</h1>
+                        <hr>
+                        <p>I make <span id="proj">things</span> with my many <span id="skill">skills</span> I've done <span id="time">all sorts</span> of stuff, but right now I <span id="github">code</span>. Check out my <span id="res">resume</span>! <span id="contact">Contact Me!</span><p>
+                    </div> <!--closes col-->
+                </div> <!--closes row-->
+            </div>
+        </div>
+    </header>
+
+    <section class="timelineSection"> 
+
+        <div class="container" id="timeline">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Where I've Been</h2>
+                    <ul class="timeline">
+                        <li>
+                          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">UCLA</h4>
+                              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2009 - 2013</small></p>
+                            </div>
+                            <div class="timeline-body">
+                              <p>I studied Psychology and did film.</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Rooftop Comedy</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Jan 2014 - Oct 2015</small></p>
+                              <p>Comic outreach and media production.</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Audible</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Oct 2015 - Aug 2015</small></p>
+                              <p>Partner Management and audio production</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Hackbright Academy</h4>
+                            </div>
+                            <div class="timeline-body">
+                              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Sept 2015 - Dec 2015</small></p>
+                              <p>Coding.</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Now!</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Feb 2016 -> </small></p>
+                              <p>I make websites!</p>
+                              <hr>
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                                  <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#">Projects</a></li>
+                                  <li><a href="#">Contact Me</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                   
+                </div> <!--closes col-->
+            </div> <!--closes row -->
+        </div> <!--closes container-->
+    </section>
+
+  
+    <section class="no-padding" id="projects">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-sm-3 col-sm-offset-2">
+                    <a href="https://github.com/emilybee3/timetracker_project" class="portfolio-box">
+                        <img src="static/img/main_chart_screenshot.png" class="img-responsive" alt="" id="metime">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                </div>
+                                <div class="project-name">
+                                    <h4>Me Time</h4>
+                                    <p>A fullstack web application designed to optimize Activity Diaries, a tool used in Cognitive Behavioral Therapy. Traditional Activity Diaries encourage patients to record their daily activities and associated moods on an hour by hour basis on a paper spreadsheet. Me Time makes this process more dynamic by converting daily activity records into a web based, fully searchable and color coded spreadsheet</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-3 col-sm-offset-2">
+                    <a href="http://emilybee3.github.io/larch/" class="portfolio-box">
+                        <img src="static/img/laughing.png" class="img-responsive" alt="" id="laughing">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    <h4>Laughing at Archeologists</h4>
+                                    <p>A front-end site built for the now discontinued Doctor Who fan podcast Laughing at Archaeologists. Built with Bootstrap, HTML/CSS3, and Javascript. Find all the features by opening and closing the Police Call Box door, reloading the page, and selecting the links. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        
+            </div>
+        </div>
+    </section>
+  
+
+  <section id="skills">
+        <div class="container" id="skills">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="section-heading">My Many Skills</h2>
+                    <div id="skills">
+                      <div id="skillmap">
+                        <div class="skills-wrapper">
+                          <div class="skills-sunburst">
+                            <div id="skills-chart-breadcrumb"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            </div>
+        </div>
+    </section>
+
+<section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="resume">
+    <header class="page-header">
+    <h1 class="page-title">Emily Block's Resume</h1>
+    <small> <i class="fa fa-clock-o"></i> Last Updated on: <time>Sunday, February 29, 2016</time></small>
+  </header>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+            <div class="panel panel-default">
+              <div class="panel-heading resume-heading">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="col-xs-12 col-sm-4">
+                      <figure>
+                        <img class="img-circle img-responsive" alt="" src="http://placehold.it/300x300">
+                      </figure>
+                      
+                      <div class="row">
+                        <div class="col-xs-12 social-btns">
+                          
+                          
+                            <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
+                              <a href="https://www.facebook.com/emily.block.33" class="btn btn-social btn-block btn-facebook">
+                                <i class="fa fa-facebook"></i> </a>
+                            </div>
+                          
+                            <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
+                              <a href="https://twitter.com/emilybeebuzz" class="btn btn-social btn-block btn-twitter">
+                                <i class="fa fa-twitter"></i> </a>
+                            </div>
+                          
+                            <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
+                              <a href="https://www.linkedin.com/in/blockemily" class="btn btn-social btn-block btn-linkedin">
+                                <i class="fa fa-linkedin"></i> </a>
+                            </div>
+                          
+                            <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
+                              <a href="https://github.com/emilybee3" class="btn btn-social btn-block btn-github">
+                                <i class="fa fa-github"></i> </a>
+                            </div>
+                          
+                            <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
+                              <a href="#" class="btn btn-social btn-block btn-stackoverflow">
+                                <i class="fa fa-stack-overflow"></i> </a>
+                            </div>
+                          
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    <div class="col-xs-12 col-sm-8">
+                      <ul class="list-group">
+                        <li class="list-group-item">Emily Block</li>
+                        <li class="list-group-item">Web Developer and Videographer</li>
+                        <li class="list-group-item"><i class="fa fa-phone"></i> 415-505-0577 </li>
+                        <li class="list-group-item"><i class="fa fa-envelope"></i> emilybee3@gmail.com</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bs-callout bs-callout-danger">
+                <h4>Summary</h4>
+                <p>
+                 Mostly self taught, analytically minded narrative junkie with experience building websites, audio and video post production, partner relationship management, and content curation. Works well with others.
+                </p>
+              </div>
+              <div class="bs-callout bs-callout-danger">
+                <h4>Skills</h4>
+                <p>
+                  Languages: Python, Javascript, HTML, CSS, SQLite, SQLAlchemy, Sqlite3</p>
+                <p>Frameworks, Libraries, & Tools:  Flask, Jinja, Bootstrap, JQuery, D3.js, Twitter API, GitHub </p>
+                <p>Equipment: Zoom H4N, DSLR (Canon and Nikon) videography and photography</p>
+                <p>Programs: Final Cut Pro, Adobe Premier, Adobe After Effects, Logic, Izotope, Soundtrack Pro
+                </p>
+              </div>
+
+              <div class="bs-callout bs-callout-danger">
+                <h4>Prior Experiences</h4>
+                <ul class="list-group">
+                  <a class="list-group-item inactive-link" href="#">
+                    <h4 class="list-group-item-heading">
+                      Editor / Consultant: Rooftop Media / Audible via Zero Chaos  Feb 2014 - Sept 2015
+                    </h4>
+                    <p class="list-group-item-text">
+                        <ul>
+                        <li>
+                          Managed partners, production, and distribution of live storytelling media
+                          </li>
+                          <li>
+                     Discovered and on boarded new partners
+                          <li>
+                     Provided technical assistance to partners and produced tracks for distribution
+                          </li>
+                           <li>
+                         Consulted on original productions
+                          </li>
+                        </ul>
+                      
+                    </p>
+                  </a>
+                  <a class="list-group-item inactive-link" href="#">
+                    <h4 class="list-group-item-heading">Social Media Manager: First Year Experience Office, UCLA Apr 2013 - Sept 2013</h4>
+                    <p class="list-group-item-text">
+                        </p><ul>
+                        <li>
+                          Developed social media strategy, including on boarding and training manuals for position
+                          </li>
+                          <li>
+                          Wrote and curated content for the office’s blog
+                          </li>
+
+                          <li>
+                          Created promotional materials such as print and digital flyers
+                          </li>
+                           <li>
+                            Promoted office materials by manning information booths.
+                          </li>
+                        </ul>
+                    <p></p>
+                  </a>
+                </ul>
+              </div>
+      
+              <div class="bs-callout bs-callout-danger">
+                <h4>Language and Platform Skills</h4>
+                <ul class="list-group">
+                  <a class="list-group-item inactive-link" href="#">
+                    
+
+                    <div class="progress">
+                      <div data-placement="top" style="width: 99%;" 
+                      aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success">
+                        <span class="sr-only">100%</span>
+                        <span class="progress-type">Video/ Audio Editing</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div data-placement="top" style="width: 85%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-success">
+                        <span class="sr-only">95%</span>
+                        <span class="progress-type">Videography</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div data-placement="top" style="width: 80%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-success">
+                        <span class="sr-only">80%</span>
+                        <span class="progress-type">Photoshop/ GIMP/ Illustrator</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div data-placement="top" style="width: 75%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-warning">
+                        <span class="sr-only">75%</span>
+                        <span class="progress-type">HTML/ CSS/ Bootstrap</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div data-placement="top" style="width: 70%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar progress-bar-warning">
+                        <span class="sr-only">60%</span>
+                        <span class="progress-type">Javascript/ jQuery</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div data-placement="top" style="width: 55%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" class="progress-bar progress-bar-warning">
+                        <span class="sr-only">55%</span>
+                        <span class="progress-type">Python</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div data-placement="top" style="width: 30%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" class="progress-bar progress-bar-danger">
+                        <span class="sr-only">30%</span>
+                        <span class="progress-type">Flask</span>
+                      </div>
+                    </div>
+
+                    <div class="progress-meter">
+                      <div style="width: 25%;" class="meter meter-left"><span class="meter-text">I've heard of that!</span></div>
+                      <div style="width: 25%;" class="meter meter-left"><span class="meter-text">I've done some</span></div>
+                      <div style="width: 30%;" class="meter meter-right"><span class="meter-text">Been there, Done That!</span></div>
+                      <div style="width: 20%;" class="meter meter-right"><span class="meter-text">I'm about this</span></div>
+                    </div>
+
+                  </a>
+
+                </ul>
+              </div>
+              <div class="bs-callout bs-callout-danger">
+                <h4>Education</h4>
+                <table class="table table-striped table-responsive ">
+                  <thead>
+                    <tr><th id="school">School/Program</th>
+                    <th>Graduation Year</th>
+                    
+                  </tr></thead>
+                  <tbody>
+                    <tr>
+                      <td id="hb">Hackbright Academy</td>
+                      <td>2015</td>
+                    </tr>
+                    <tr>
+                      <td>University of California at Los Angeles</td>
+                      <td>2013</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        </div>
+            
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Contact Me!</h2>
+                <a href="#" class="btn btn-default btn-xl wow tada">Contact Me!</a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- jQuery -->
+    <script src="static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="static/js/jquery.easing.min.js"></script>
+    <script src="static/js/jquery.fittext.js"></script>
+    <script src="static/js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="static/js/creative.js"></script>
+
+    <script type="text/javascript" src="static/js/skillsdata.js"></script>
+    <script type="text/javascript" src="static/js/skill.js"></script>
+    <script type="text/javascript">
+      // Hack to make this example display correctly in an iframe on bl.ocks.org
+      d3.select(self.frameElement).style("height", "700px");
+    </script>
+
+</body>
+
+</html>
