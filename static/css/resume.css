@@ -1,9 +1,9 @@
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
 .page-header{
   text-align: center;    
 }
 
+/*social buttons*/
 /*social buttons*/
 .btn-social{
   color: white;
@@ -16,6 +16,7 @@
 .btn-facebook {
 background-color: #3b5998;
 opacity:0.9;
+z-index: 100;
 }
 .btn-twitter {
 background-color: #00aced;
@@ -37,6 +38,7 @@ opacity:0.9;
   background-color: #D38B28;
   opacity: 0.9;
 }
+
 
 /* resume stuff */
 
@@ -155,7 +157,36 @@ opacity:0.9;
 
 ul {
   text-align: left;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+
 }
 tbody{
   text-align: left;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+/**/
+}
+
+#selfie{
+  width: 200px;
+  height:200px;
+}
+
+#socialbtns {
+  margin-left: 20px;
+  
+}
+
+p{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+}
+
+.fa fa-twitter {
+  color:white;
+}
+
+small {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
 }

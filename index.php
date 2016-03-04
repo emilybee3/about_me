@@ -14,26 +14,26 @@
 <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css">
 
-
 <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
 <!-- Plugin CSS -->
     <link rel="stylesheet" href="static/css/animate.min.css" type="text/css">
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <link rel="stylesheet" href="static/css/font-awesome/css/font-awesome.css"/>
+
 
 <!-- Custom CSS -->
     <link rel="stylesheet" href="static/css/resume.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="static/css/skill.css"/>
-    <link rel="stylesheet" href="static/css/creative.css" type="text/css">
 
+    <link rel="stylesheet" href="static/css/creative.css" type="text/css">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/skill.css"/>
 
 </head>
 
 <body id="page-top">
 
-<!-- NAV BAR -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,29 +44,29 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll hvr-underline-from-center" href="#page-top">Top</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Emily Bee</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#timeline">Where I've Been</a>
+                        <a class="page-scroll" href="#timeline">Where I've Been</a>
                     </li>
                     <!-- <li>
                         <a class="page-scroll" href="#projects">Services</a>
                     </li> -->
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#projects">Projects</a>
+                        <a class="page-scroll" href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#skills">Skills</a>
+                        <a class="page-scroll" href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#resume_resume">Resume</a>
+                        <a class="page-scroll" href="#resume_resume">Resume</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -75,41 +75,37 @@
         <!-- /.container-fluid -->
     </nav>
 
-<!-- HEADER SECTION -->
     <header>
         <div class="header-content">
             <div class="header-content-inner">
                 <div class="row">
                     <div class="col-xs-9" id="aboutme">
-                        <div class="mainHeading"><img src="static/img/bee_logo.png" id="mainBee">
-                             <div class="textbox">
-                                <p class="text">Hi! I'm Emily Bee</p>
-                             </div>  
-                            <p id="headerParagraph">I make <a href="#projects" class="hvr-wobble-vertical hvr-underline-from-center">things</a> with my many <a href="#skills" class="hvr-underline-from-center hvr-wobble-vertical">skills</a> I've done <a href="#timeline" class="hvr-wobble-vertical hvr-underline-from-center">all sorts</a> of stuff, but right now I'm a <a href="https://github.com/emilybee3"class="hvr-wobble-vertical hvr-underline-from-center">coder</a>. Check out my <a href="#resume" class="hvr-underline-from-center hvr-wobble-vertical">resume</a>, or <a href="#contact" class="hvr-wobble-vertical hvr-underline-from-center">Contact Me!</a></p> 
-                        </div> 
+                        <h1>Hi! I'm Emily Bee</h1>
+                        <hr>
+                        <p>I make <span id="proj">things</span> with my many <span id="skill">skills</span> I've done <span id="time">all sorts</span> of stuff, but right now I <span id="github">code</span>. Check out my <span id="res">resume</span>! <span id="cont">Contact Me!</span><p>
                     </div> <!--closes col-->
                 </div> <!--closes row-->
             </div>
         </div>
     </header>
 
-<!-- TIMELINE SECTION -->
-    <section id="timelineSection"> 
+    <section class="timelineSection"> 
+
         <div class="container" id="timeline">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading retroshadow">Where I've Been</h2><br><br>
+                    <h2 class="section-heading">Where I've Been</h2>
                     <ul class="timeline">
                         <li>
                           <div class="timeline-badge"><i class="glyphicon glyphicon-education"></i></div>
                           <div class="timeline-panel">
                             <div class="timeline-heading">
                               <h4 class="timeline-title">UCLA</h4>
+                              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2009 - 2013</small></p>
                             </div>
                             <div class="timeline-body">
-                                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2009 - 2013</small></p>
                               <p>I studied psychology, concentrating on education 
-                                and cognitive science. While in LA I took advantage of the booming film industry by joining The Film and Photography Society at UCLA, a student group dedicated to teaching ourselves professional level film production. I gained experience on student and professional sets in all areas of production, but I specialized in post production, editing award winning films for FPS. Check out my video work: <a class="hvr-underline-from-center" href "https://vimeo.com/user12702695">on Vimeo.</a></p>
+                                and cognitive science. While in LA I took advantage of the booming film industry by joining The Film and Photography Society at UCLA, a student group dedicated to teaching ourselves professional level film production. I gained experience on student and professional sets in all areas of production, but I specialized in post production, editing award winning films for FPS. Check out my video work: <a href "https://vimeo.com/user12702695">on Vimeo.</a></p>
                             </div>
                           </div>
                         </li>
@@ -137,16 +133,15 @@
                             </div>
                           </div>
                         </li>
-                        
+                        <div class="timeline-badge danger"><i class="glyphicon glyphicon-apple"></i></div>
                         <li class="timeline-inverted">
-                            <div class="timeline-badge danger"><i class="glyphicon glyphicon-apple"></i></div>
                           <div class="timeline-panel">
                             <div class="timeline-heading">
                               <h4 class="timeline-title">Hackbright Academy</h4>
                             </div>
                             <div class="timeline-body">
                               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Sept 2015 - Dec 2015</small></p>
-                              <p>As my contract ended with Audible, I felt the urge to once again feed my love of creating visual experiences using technology. I was accepted at Hackbright Academy, a selective 12 week full stack engineering bootcamp. I built a web app:<a class="hvr-underline-from-center" class="page-scroll" href="#projects"> Me Time</a> and discovered an obsession with web development and design</p>
+                              <p>As my contract ended with Audible, I felt the urge to once again feed my love of creating visual experiences using technology. I was accepted at Hackbright Academy, a selective 12 week full stack engineering bootcamp. I built a web app:<a class="page-scroll" href="#projects"> Me Time</a> and discovered an obsession with web development and design</p>
                             </div>
                           </div>
                         </li>
@@ -158,7 +153,7 @@
                             </div>
                             <div class="timeline-body">
                                 <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Feb 2016 -> </small></p>
-                              <p>I make websites! Want me to make one for you? Want to hire me! <a class="hvr-underline-from-center" class="page-scroll" href="#contact"> Lets get in touch! </a></p>
+                              <p>I make websites! Want me to make one for you? Want to hire me! <a class="page-scroll" href="#contact"> Lets get in touch! </a></p>
                               <hr>
                             </div>
                           </div>
@@ -170,93 +165,56 @@
         </div> <!--closes container-->
     </section>
 
-  <!-- PROJECTS SECTION -->
-   
+  
     <section class="no-padding" id="projects">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="section-heading retroshadow">Projects</h2>
+                    <h2 class="section-heading">Projects</h2>
                 </div>
             </div>
             <div class="row no-gutter">
 
                 <div class="col-sm-3 col-sm-offset-2">
-                    <a href="https://github.com/emilybee3/timetracker_project" class="nounderline hvr-underline-from-center">
-                        <img src="static/img/main_chart_screenshot.png" class="img-responsive" alt="" id="metime"></a>
+                    <a href="https://github.com/emilybee3/timetracker_project" class="portfolio-box">
+                        <img src="static/img/main_chart_screenshot.png" class="img-responsive" alt="" id="metime">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
                                 </div>
-                                
-                                <!-- <div class="project-name"> -->
-                                    <h4 class="retroshadow">Me Time</h4>
+                                <div class="project-name">
+                                    <h4>Me Time</h4>
                                     <p>A fullstack web application designed to optimize Activity Diaries, a tool used in Cognitive Behavioral Therapy.Me Time converts daily activity records into a web based, fully searchable and color coded spreadsheet</p>
-                                <!-- </div> -->
+                                </div>
                             </div>
                         </div>
+                    </a>
                 </div>
                 <div class="col-sm-3 col-sm-offset-2">
-                    <a href="http://emilybee3.github.io/larch/" class="portfolio-box nounderline hvr-underline-from-center">
-                        <img src="static/img/laughing.png" class="img-responsive" alt="" id="laughing"></a>
+                    <a href="http://emilybee3.github.io/larch/" class="portfolio-box">
+                        <img src="static/img/laughing.png" class="img-responsive" alt="" id="laughing">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    <h4 class="retroshadow">Laughing at Archeologists</h4>
+                                    <h4>Laughing at Archeologists</h4>
                                     <p>A front-end site built for the now discontinued Doctor Who fan podcast Laughing at Archaeologists. Built with Bootstrap, HTML/CSS3, and Javascript. Find all the features by opening and closing the Police Call Box door, reloading the page, and selecting the links. </p>
                                 </div>
                             </div>
                         </div>
-                    
+                    </a>
                 </div>
         
             </div>
         </div>
     </section>
   
-  <div class="container">
-  <div class="page-header">
-    <h2 class="text-center">Projects</h2>
-  </div>
-  <div class="container">
-    <div class="row stylish-panel">
-      <div class="col-xs-4 col-xs-offset-2">
-        <div>
-            <a href="https://github.com/emilybee3/timetracker_project" title="See more">
-          <img src="static/img/metime.png" id="metimepic" class="img-circle img-thumbnail propic"></a>
-          <h2>Me Time<br></h2>
-          <p>A fullstack web application designed to optimize Activity Diaries, a tool used in Cognitive Behavioral Therapy.Me Time converts daily activity records into a web based, fully searchable and color coded spreadsheet
-          </p>
-         </a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div>
-            <a href="http://emilybee3.github.io/larch/">
-          <img src="static/img/tardis_icon.png" class="img-circle img-thumbnail propic"></a>
-          <h2>Laughing at Archaeologists</h2>
-          <p>A front-end site built for the now discontinued Doctor Who fan podcast Laughing at Archaeologists. Built with Bootstrap, HTML/CSS3, and Javascript. Find all the features by opening and closing the Police Call Box door, reloading the page, and selecting the links.
-          </p>
-         </a>
-        </div>
-      </div>
-    
-    </div>
-    
-     
-  </div>
-</div>
-<!-- /container -->
-
-
-
 
   <section id="skills">
         <div class="container">
             <div class="row">
-                <h2 class="section-heading retroshadow" id="skillsHeading">My Many Skills</h2>
                 <div class="col-xs-12">
-                    <div id="skillsmapContainer">
+                    <h2 class="section-heading">My Many Skills</h2>
+                    <div id="skills">
                       <div id="skillmap">
                         <div class="skills-wrapper">
                           <div class="skills-sunburst">
@@ -279,7 +237,7 @@
                 <div class="col-lg-12 text-center">
                     <div class="resume">
     <header class="page-header">
-    <h1 class="page-title retroshadow">Emily Block's Resume</h1>
+    <h1 class="page-title">Emily Block's Resume</h1>
     <small> <i class="fa fa-clock-o"></i> Last Updated on: <time>Sunday, February 29, 2016</time></small>
     </header>
         <div class="row">
@@ -293,9 +251,6 @@
                         <img class="img-circle img-responsive" id="selfie"alt="" src="static/img/selfie.jpg">
                       </figure>
                       
-                      
-
-
                       <div class="row">
                         <div class="col-xs-8 col-xs-offset-2 social-btns" id="socialbtns">
                           
@@ -491,19 +446,70 @@
 </section>
 
     
-  <section id="contact">
-        <div class="container">
-            <div class="row">
-                <h2 class="section-heading">Contact Me!</h2>
-                <div class="col-xs-12">
-                    
+    <div class="container">
+  <div class="row">
+    
+    <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-primary btn-lg wow tada" data-toggle="modal">Contact Us</a></h1>
+    
+  </div>
+</div>
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">We'd Love to Hear From You</h3>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" role="form" method="post" action="index.php">
+            <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                    <?php echo "<p class='text-danger'>$errName</p>";?>
                 </div>
             </div>
-        </div>
-        
+            <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                    <?php echo "<p class='text-danger'>$errEmail</p>";?>
+                </div>
+                    
             </div>
-        </div>
-    </section>
+            <div class="form-group">
+                <label for="message" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" rows="4" name="message"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+                <?php echo "<p class='text-danger'>$errName</p>";?>
+
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                    <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                    <!-- Will be used to display an alert to the user-->
+                </div>
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -528,7 +534,6 @@
       // Hack to make this example display correctly in an iframe on bl.ocks.org
       d3.select(self.frameElement).style("height", "700px");
     </script>
- 
 
 </body>
 

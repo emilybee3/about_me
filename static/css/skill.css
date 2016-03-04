@@ -1,33 +1,36 @@
 #skills {
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
   font-size: 12px;
   font-weight: 400;
   /*background-color: #fff;*/
-  width: 900px;
-  height: 900px;
-  transform:scale(1.2);
-  margin-left:200px;
-  padding-top:75px;
+  /*width: 600px;*/
+  /*height: 700px;*/
+  transform:scale(1.1);
+       font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  
 }
-
 
 #skillmap .skills-wrapper {
   margin-top: 10px;
   overflow: auto;
+  margin-left:80px;
+
 }
 #skillmap .skills-sunburst {
   float: left;
   width: 500px;
   /*margin-left: 80px;*/
 }
+
 #skillmap .skills-sunburst svg {
-  font: 8px 'Source Sans Pro', sans-serif;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-weight: 900;
+  font-size: 10px;
   cursor: pointer;
   -webkit-transform: 120%;  
 }
 
 #skills-chart-breadcrumb{
-  padding-left: 100px;
+  padding-left: 150px;
   margin-bottom:-75px;
 }
