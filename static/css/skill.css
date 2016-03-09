@@ -13,7 +13,8 @@
 #skillmap .skills-wrapper {
   margin-top: 10px;
   overflow: auto;
-  margin-left:80px;
+  /*margin-left:80px;*/
+  margin-left:-10px;
 
 }
 #skillmap .skills-sunburst {
