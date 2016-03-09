@@ -64,11 +64,11 @@ opacity:0.9;
 }
 
 .bs-callout-danger {
-    border-left-color: #d9534f;
+    border-left-color:#f05f40;
 }
 
 .bs-callout-danger h4{
-    color: #d9534f;
+    color: #f05f40;
 }
 
 .resume .list-group-item:first-child, .resume .list-group-item:last-child{
@@ -148,23 +148,17 @@ opacity:0.9;
     font-weight: 700;
     font-size: 0.85em;
     color: rgb(160, 160, 160);
-    text-align: left;
-}
+    text-align: right;
+    left: -45px;}
 
 .progress-meter > .meter.meter-right > .meter-text {
     text-align: right;
 }
 
-ul {
-  text-align: left;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-
-
-}
 tbody{
   text-align: left;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-/**/
+  font-family: Comfortaa;
+    font-weight: 400;
 }
 
 #selfie{
@@ -177,16 +171,7 @@ tbody{
   
 }
 
-p{
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-
-}
 
 .fa fa-twitter {
   color:white;
-}
-
-small {
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-
 }
